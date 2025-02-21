@@ -1,6 +1,6 @@
 document.querySelector("button").addEventListener("click", gradeQuiz);
 displayQ2Choices();
-localStorage.setItem("attempts", 0);
+localStorage.setItem("attempts");
 
 
 function gradeQuiz(){
