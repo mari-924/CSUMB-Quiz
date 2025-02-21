@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script  src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: JS Quiz</title>
+</head>
+<body>
+    <h1>CSUMB Quiz</h1><br>
+
+    <div class="question">
+        1. Where is CSUMB's located?
+        <img id="mark1" width="3%" height="3%">
+        <br>
+        <label>
+            <input type="radio" name="Q1"> Tampa Bay
+        </label>
+        <label>
+            <input type="radio" name="Q1" value="Monterey Bay"> Monterey Bay
+        </label>
+        <label>
+            <input type="radio" name="Q1"> Carmel Bay
+        </label>
+        <h3 id="q1"></h3>
+        <br><br>
+
+        2. What's CSUMB's school colors?
+        <img id="mark2" width="3%" height="3%">
+        <div id="Q2Choices"></div>
+        <h3 id="q2"></h3>
+
+        <br>
+        3. What is the CSUMB mascot?
+        <img id="mark3" width="3%" height="3%">
+        <br>
+        <input type="text" id="Q3" name="Q3" size="13" placeholder="    Enter A Mascot   ">
+        <h3 id="q3"></h3>
+
+        <br><br>
+
+        4. What year was CSUMB founded in?
+        <img id="mark4" width="3%" height="3%">
+        <br>
+        <input type="number" name="year" id="Q4" placeholder="            Enter A Year          " size="11">
+        <h3 id="q4"></h3>
+
+        <br><br>
+
+        5. What is CSUMB's mascot's name?
+        <img id="mark5" width="3%" height="3%">
+        <br>
+        <select name="mascotName" id="Q5">
+            <option value="blank"></option>
+            <option value="Monte Rey">Monte Rey</option>
+            <option value="Otter Ray">Otter Ray</option>
+            <option value="Monte Otter">Monte Otter</option>
+            <option value="Otter Monte">Otter Monte</option>
+        </select>
+        <h3 id="q5"></h3>
+    </div>
+
+    <h2 id="grade"></h2>  
+    <h2 id="attempts"></h2>
+    <button>Submit Quiz</button>
+
+
+
+
+    <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js"> </script> 
+    <script src="/js/script.js"></script>
+</body>
+</html>
